@@ -14,7 +14,7 @@ const anotherID = Symbol('123')
 
 console.log (id === anotherID);  //false
 
-const bigNumber = 852147963984846816n  // use n at end for bigInt
+//const bigNumber = 852147963984846816n  // use n at end for bigInt
 
 
 //check javascript is statically typed or dynamically typed.
@@ -34,6 +34,6 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typepof bigNumber); //use these to remember datatype of variable.
+//console.log(typepof heros); //use these to remember datatype of variable.
 
 //learn about function object
