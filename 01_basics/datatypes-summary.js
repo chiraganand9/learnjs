@@ -37,3 +37,27 @@ const myFunction = function(){
 //console.log(typepof heros); //use these to remember datatype of variable.
 
 //learn about function object
+
+// +++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap (Non-Primitive)
+
+let myYoutubeName = "chiragcodes"
+
+let anotherName = myYoutubeName
+anotherName = "CaCodes"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@live.com",
+    upi: "9253@upi"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "admin@live.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
